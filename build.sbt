@@ -3,7 +3,7 @@ lazy val root = (project in file(".")).
     name := "spark-streaming-websocket",
     organization := "com.github.atemerev",
     scalaVersion := "2.11.8",
-    version := "0.1.0",
+    version := "0.1-SNAPSHOT",
     sbtVersion := "0.13.12",
     libraryDependencies ++= Seq(
       "org.jfarcand" % "wcs" % "1.5",
